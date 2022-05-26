@@ -1,11 +1,12 @@
 import './assets/styles/styles.scss';
 import SideNav from "./components/sideNav/sideNav";
+import Home from './components/home/home';
+
 
 function App() {
   return (
-    <div>
-      <SideNav/>
-    </div>
+    <SideNav/> ,
+    <Home/>
   );
 }
 
