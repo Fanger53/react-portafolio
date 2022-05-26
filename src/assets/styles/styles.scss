@@ -1,0 +1,118 @@
+@import './colors';
+
+.border {
+  border: solid 1px black;
+}
+
+.box-shadow {
+  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
+}
+
+.btn {
+  padding: 5px;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: $black;
+  color: $white;
+  cursor: pointer;
+}
+
+.border-bottom {
+  border-bottom: solid 2px $second-color;
+}
+
+.bg-second-color {
+  background-color: $second-color;
+}
+
+.bg-semigray-color {
+  background-color: #f7f7f7;
+}
+
+.bg-white-color {
+  background-color: $white;
+}
+
+.bg-black-color {
+  background-color: $black;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.rounded {
+  border-radius: 2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-semigray {
+  color: $semigray;
+}
+
+.text-second-color {
+  color: $second-color;
+}
