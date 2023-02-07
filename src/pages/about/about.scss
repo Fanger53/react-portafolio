@@ -1,3 +1,12 @@
-.about__section {
+.about {
   width: 95vw;
+}
+
+.about__section {
+  width: 50vw;
+  padding: 20px;
+  border-radius: 9px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  23px 23px 46px #bebebe,
+             -23px -23px 46px #ffffff;
 }
