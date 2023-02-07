@@ -1,9 +1,15 @@
-.home__card {
-  width: 95vw;
+#home {
+  width: 95.7vw;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 63%, rgba(0,212,255,1) 100%);
+}
+
+.home__cards {
+  height: 100vh;
 }
 
 .card {
-  width: 35%;
-  height: 17vh;
-  margin-top: 25vh;
+  width: 500px;
+  height: 10vh;
+  background-color: transparent;
+  color: whitesmoke;
 }
