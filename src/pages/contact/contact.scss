@@ -1,0 +1,28 @@
+.contact {
+  width: 95vw;
+  height: 100vh;
+}
+
+.contact__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_img {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.formButton {
+  background: linear-gradient(270deg, rgba(35,23,233,1) 0%, rgba(202,22,214,1) 63%, rgba(0,212,255,1) 100%);
+}
+
+.footer {
+  background-color: black;
+  height: 400px;
+  margin-top: -400px;
+  z-index: -5;
+}
