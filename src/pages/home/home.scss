@@ -1,3 +1,5 @@
+@import '~animate.css/animate.min.css';
+
 #home {
   width: 95.7vw;
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 63%, rgba(0,212,255,1) 100%);
@@ -5,11 +7,40 @@
 
 .home__cards {
   height: 100vh;
+  @media screen and (max-width: 767px)  {
+    width: 100%;
+  }
+}
+
+.home-img {
+  width: 500px;
+  animation-name: shakeY;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+
+  @media screen and (max-width: 767px)  {
+    margin-top: 180px;
+  }
+
+  @media screen and (min-width:769px) and (max-width: 1199px){
+    margin-top: 170px;
+  }
 }
 
 .card {
-  width: 500px;
+  width: 600px;
   height: 10vh;
+  margin-top: 80px;
   background-color: transparent;
   color: whitesmoke;
+  
+  @media screen and (max-width: 767px)  {
+    width: auto;
+    margin-top: 17px;
+  }
+}
+
+.typed-text {
+  font-size: 3rem;
 }
