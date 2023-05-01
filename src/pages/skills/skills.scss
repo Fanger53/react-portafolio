@@ -12,7 +12,7 @@
     margin: 100px 0 0 100px;
 
   @media screen and (max-width: 767px)  {
-    width: 87vw;
+    width: 83vw;
     height: 100vh;
     margin: 0 0 0 0;
     padding: 100px 0;
@@ -40,9 +40,11 @@ position: relative;
 }
 
 .skill-slider .item img {
-width: 50%;
+width: 170px;
+height: 170px;
 margin: 0 auto 15px auto;
-border: 3px solid greenyellow;
+// border: 3px solid greenyellow;
+border-radius: 5px;
 }
 
 .background-image-left {
